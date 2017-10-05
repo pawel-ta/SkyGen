@@ -1,6 +1,6 @@
 # SkyGen
 <img src="http://skygen.herokuapp.com/static/lang-logo.png" width="25%" height="25%"/><br>
-It is good
+It is good.<br>
 SkyGen is a map generator I wrote in Python
 You can see how It functions <a href="http://skygen.herokuapp.com">here</a>
 The server for webapp is free so I strongly recommend these parameters:
@@ -26,3 +26,5 @@ Using simple Markov's chain - based algorithm and text file with approximately 1
 I procedurally generate random names for structures
 # Clouds
 Same as terrain but do not appear above certain elevation
+# Rendering
+For rendering I chose PyGame, so you'll need that if you want to try SkyGen on your computer
