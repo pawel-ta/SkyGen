@@ -13,7 +13,6 @@ Show names on map: unchecked<br>
 It should work just fine with them, other may cause an application error due to process timeout<br>
 Currently name seed database is too large for server to generate names, that is not a problem
 in desktop version.
-(nothing bad will happen, but you won't get your map)
 # Terrain
 Terrain elevation generation works using fractal noise composed of OpenSimplex noisemaps<br>
 OpenSimplex noise is alternate version of Perlin's Simplex Noise algorithm with
