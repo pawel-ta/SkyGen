@@ -3,13 +3,13 @@
 It is good.<br>
 SkyGen is a map generator I wrote in Python.
 You can see how it functions <a href="http://skygen.herokuapp.com">here</a><br>
-The server for webapp is free so I strongly recommend these parameters:
-Biome type: random
-Rivers number: 20
-Structures number: 20
-Chunks number: 4
-Minimal refactor height: 20
-Maximal refactor height: 255
+The server for webapp is free so I strongly recommend these parameters:<br>
+Biome type: random<br>
+Rivers number: 20<br>
+Structures number: 20<br>
+Chunks number: 4<br>
+Minimal refactor height: 20<br>
+Maximal refactor height: 255<br>
 It should work just fine with them, other may cause an application error
 (nothing bad will happen, but you won't get your map)
 # Terrain
