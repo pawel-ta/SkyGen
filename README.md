@@ -32,4 +32,4 @@ Same as terrain but do not appear above certain elevation.
 # Rendering
 For rendering I chose PyGame, so you'll need that if you want to try SkyGen on your computer.
 # Other Requirements
-I used scipy for uniform distribution random structures positions generation. Also OpenSimplex will be necessary for generating terrain, clouds and refactoring terrain (blending biome rectangles together to make seamless map).
+I used scipy for uniform distribution of structures positions. Also OpenSimplex will be necessary for generating terrain, clouds and refactoring terrain (blending biome rectangles together to make seamless map).
