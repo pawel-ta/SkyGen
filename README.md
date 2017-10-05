@@ -11,7 +11,7 @@ Chunks number: 4<br>
 Minimal refactor height: 20<br>
 Maximal refactor height: 255<br>
 Show names on map: unchecked<br>
-It should work just fine with them, other may cause an application error due to process timeout
+It should work just fine with them, other may cause an application error due to process timeout<br>
 Currently name seed database is too large for server to generate names, that is not a problem
 in desktop version.
 (nothing bad will happen, but you won't get your map)
