@@ -17,7 +17,7 @@ in desktop version.
 Terrain elevation generation works using fractal noise composed of OpenSimplex noisemaps<br>
 OpenSimplex noise is alternate version of Perlin's Simplex Noise algorithm with
 no patent rights on it. To generate fractal noise I add diminished noisemaps to the original one with
-reduced weights. Choosing proper parameters for scale of reduction and weights can be crucial to the final result.
+reduced weights. Choosing proper parameters for scale of size and weights reduction can be crucial to the final result.
 After that we end up with 2-dimensional array of integers meaning elevation of a point in cartesian coordinates. (which are indices)
 # Rivers
 Rivers are generated simply by choosing random point above certain elevation, then selecting
