@@ -16,16 +16,20 @@ in desktop version.
 # Terrain
 Terrain elevation generation works using fractal noise composed of OpenSimplex noisemaps<br>
 OpenSimplex noise is alternate version of Perlin's Simplex Noise algorithm with
-no patent rights on it.
+no patent rights on it. To generate fractal noise I add diminished noisemaps to the original one with
+reduced weights. Choosing proper parameters for scale of reduction and weights can be crucial to the final result.
+After that we end up with 2-dimensional array of integers meaning elevation of a point in cartesian coordinates. (which are indices)
 # Rivers
-Rivers are generated simply by choosing random point above certain elevation and then chosing
-one of adjacent ones with lowest elevation, and so on until we get to water or exceed river length limit.
+Rivers are generated simply by choosing random point above certain elevation, then selecting
+one of adjacent ones with lowest elevation, and so on until we get to water level or exceed river length limit.
 # Structures
 For now they're hardcoded but I will add procedurally generated ones in the future.
 # Names
-Using simple Markov's chain - based algorithm and text file with approximately 10000 fantasy city names as a seed
-I procedurally generate random names for structures
+Using simple Markov's chain-based algorithm and text file with approximately 10000 fantasy city names as a seed
+I procedurally generate random names for structures. Shortly probabilities are generated for each letter of being succesor to each letter. Then based on that probability the letters are chosen (randomly but with probability).
 # Clouds
-Same as terrain but do not appear above certain elevation
+Same as terrain but do not appear above certain elevation.
 # Rendering
-For rendering I chose PyGame, so you'll need that if you want to try SkyGen on your computer
+For rendering I chose PyGame, so you'll need that if you want to try SkyGen on your computer.
+# Other Requirements
+I used scipy for uniform distribution random structures positions generation. Also OpenSimplex will be necessary for generating terrain, clouds and refactoring terrain (blending biome rectangles together to make seamless map).
