@@ -2,7 +2,7 @@
 It is good.<br>
 SkyGen is a map generator I wrote in Python.
 You can see how it functions <a href="http://skygen.herokuapp.com">here</a><br>
-The server for webapp is free so I strongly recommend these parameters:<br>
+The server for webapp is a free one so I strongly recommend these parameters:<br>
 Biome type: random<br>
 Rivers number: 20<br>
 Structures number: 20<br>
