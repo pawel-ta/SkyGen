@@ -10,7 +10,7 @@ Structures number: 20<br>
 Chunks number: 4<br>
 Minimal refactor height: 20<br>
 Maximal refactor height: 255<br>
-It should work just fine with them, other may cause an application error
+It should work just fine with them, other may cause an application error due to process timeout
 (nothing bad will happen, but you won't get your map)
 # Terrain
 Terrain elevation generation works using fractal noise composed of OpenSimplex noisemaps
