@@ -1,5 +1,4 @@
 # SkyGen
-<img src="http://skygen.herokuapp.com/static/lang-logo.png" width="25%" height="25%"/><br>
 It is good.<br>
 SkyGen is a map generator I wrote in Python.
 You can see how it functions <a href="http://skygen.herokuapp.com">here</a><br>
@@ -16,7 +15,7 @@ Currently name seed database is too large for server to generate names, that is 
 in desktop version.
 (nothing bad will happen, but you won't get your map)
 # Terrain
-Terrain elevation generation works using fractal noise composed of OpenSimplex noisemaps
+Terrain elevation generation works using fractal noise composed of OpenSimplex noisemaps<br>
 OpenSimplex noise is alternate version of Perlin's Simplex Noise algorithm with
 no patent rights on it.
 # Rivers
