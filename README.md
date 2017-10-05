@@ -1,8 +1,8 @@
 # SkyGen
 <img src="http://skygen.herokuapp.com/static/lang-logo.png" width="25%" height="25%"/><br>
 It is good.<br>
-SkyGen is a map generator I wrote in Python
-You can see how It functions <a href="http://skygen.herokuapp.com">here</a>
+SkyGen is a map generator I wrote in Python.
+You can see how it functions <a href="http://skygen.herokuapp.com">here</a><br>
 The server for webapp is free so I strongly recommend these parameters:
 Biome type: random
 Rivers number: 20
