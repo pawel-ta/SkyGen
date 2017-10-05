@@ -1,5 +1,5 @@
 # SkyGen
-<img src="https://github.com/pawel-ta/SkyGen/blob/master/static/lang-logo.png" width="50%" height="50%" />
+<img src="https://github.com/pawel-ta/SkyGen/blob/master/static/lang-logo.png" width="25%" height="25%" />
 It is good.<br>
 SkyGen is a map generator I wrote in Python.
 You can see how it functions <a href="http://skygen.herokuapp.com">here</a><br>
