@@ -23,7 +23,7 @@ def generate_map_chunk(size_x: int, size_y: int, biome_type: str, x_offset: int 
         x_offset (int): integer indicating horizontal offset used in generating Simplex Noise
         y_offset (int): integer indicating vertical offset used in generating Simplex Noise
     Returns:
-        map_array (`obj`:list: of `obj`:list: of `obj`:int:): list of lists containing elevation
+        map_array (:obj:`list` of :obj:`list` of :obj:`int`): list of lists containing elevation
             number for specified coordinates
     """
     map_array = []
@@ -77,7 +77,7 @@ def generate_map(chunks_number: int, map_res_x: int, map_res_y: int):
         map_res_x (int): horizontal size of single chunk
         map_res_y (int): vertical size of single chunk
     Returns:
-        map_array (`obj`:list: of `obj`:list: of `obj`:int:): list of lists containing elevation
+        map_array (:obj:`list` of :obj:`list` of :obj:`int`): list of lists containing elevation
                 number for specified coordinates
     """
     biome_list = []
@@ -101,10 +101,10 @@ def create_namespace(map_array: list):
         in place of generated sites
 
     Args:
-        map_array (`obj`:list: of `obj`:list: of `obj`:int:): list
+        map_array (:obj:`list` of :obj:`list` of :obj:`int`): list
             representing map with elevation
     Returns:
-        namespace (`obj`:list: of `obj`:list: of `obj`:int:): list
+        namespace (:obj:`list` of :obj:`list` of :obj:`int`): list
             in the size of map_array initialised with 0's
     """
     namespace = []
@@ -122,12 +122,12 @@ def generate_sites(map_array: list, map_namespace: list, quantity: int = 0):
         in future versions of SkyGen
 
     Args:
-        map_array (`obj`:list: of `obj`:list: of `obj`:int:): a list representing the map
-        map_namespace (`obj`:list: of `obj`:list: of `obj`:int:): a list initialised with
+        map_array (:obj:`list` of :obj:`list` of :obj:`int`): a list representing the map
+        map_namespace (:obj:`list` of :obj:`list` of :obj:`int`): a list initialised with
         0's in the size of map_array
         quantity (int): amount of structures to be generated
     Returns:
-        sites_array (`obj`:list: of `obj`:list: of `obj`:int:): a list
+        sites_array (:obj:`list` of :obj:`list` of :obj:`int`): a list
             representing sites on map
     """
     sites_array = []
@@ -402,12 +402,12 @@ def generate_rivers(map_array: list, map_res_x: int, map_res_y: int, quantity: i
         with the lowest elevation
 
     Args:
-        map_array (`obj`:list: of `obj`:list: of `obj`:int:): a list representing the map
+        map_array (:obj:`list` of :obj:`list` of :obj:`int`): a list representing the map
         map_res_x (int): resolution of a single chunk (horizontal)
         map_res_y (int): resolution of a single chunk (vertical)
         quantity (int): number of rivers to be generated on map
     Returns:
-        map_array (`obj`:list: of `obj`:list: of `obj`:int:): a list representing the map,
+        map_array (:obj:`list` of :obj:`list` of :obj:`int`): a list representing the map,
             same as that given as input but with rivers on it!
     """
     while quantity != 0:
@@ -449,10 +449,10 @@ def generate_clouds(map_array: list, elevation: int):
     Function responsible for generating clouds on certain elevation
 
     Args:
-        map_array (`obj`:list: of `obj`:list: of `obj`:int:): a list representing the map
+        map_array (:obj:`list` of :obj:`list` of :obj:`int`): a list representing the map
         elevation (int): the elevation of clouds layer
     Returns:
-        cloud_array map_array (`obj`:list: of `obj`:list: of `obj`:int:): a list representing clouds
+        cloud_array map_array (:obj:`list` of :obj:`list` of :obj:`int`): a list representing clouds
     """
     cloud_array = []
 
