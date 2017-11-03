@@ -12,9 +12,9 @@ def display_on_surface(map_array: list, sites_array: list, map_namespace: list,
         (pygame display on desktop, surface in the webapp), display is shittycoded,
         but it's for purpose of easily creating nice looks
     Args:
-        map_array (`obj`:list: of `obj`:list: of `obj`:int:): a list representing the map
-        sites_array (`obj`:list: of `obj`:list: of `obj`:int:): a list representing sites
-        map_namespace (`obj`:list: of `obj`:list: of `obj`:int:): a list representing
+        map_array (:obj:`list` of :obj:`list` of :obj:`int`): a list representing the map
+        sites_array (:obj:`list` of :obj:`list` of :obj:`int`): a list representing sites
+        map_namespace (:obj:`list` of :obj:`list` of :obj:`int`): a list representing
             where names on map should be placed, they're generated during display_on_surface
             by name_generator.generate_random_name
         biome (str): string containing the name of the biome, you can see available names in __settings__.py,
