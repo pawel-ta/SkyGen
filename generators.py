@@ -168,6 +168,10 @@ def generate_sites(map_array: list, map_namespace: list, quantity: int = 0):
 
         site_type = site_types[randint(0,len(site_types)-1)]
 
+        #THESE ARE HARDCODED
+        #TODO
+        #MAKE A FILE WITH SITES REPRESENTED AS MATRICES AND JUST LOAD IT!!!
+        
         if site_type != 'ship':
             for xk in range(-int(3*site_type/2), int(3*site_type/2)):
                 for yk in range(-int(3*site_type/2), int(3*site_type/2)):
